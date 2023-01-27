@@ -1,7 +1,7 @@
 
 
 setwd("~/Biomarkers")
-coral.nsaf<-read.csv('NSAF tanya coral T0 T2.csv', header=T, row.names=1)
+coral.nsaf<-read.csv('NSAF coral T0 T2.csv', header=T, row.names=1)
 
 
 library(pheatmap)
