@@ -54,7 +54,6 @@ coral55<-subset(coral.T1, select=c(protein, X55NBT0_19))
 coral5<-subset(coral.T1, select=c(protein, X5NBT0_39))
 coral73<-subset(coral.T1, select=c(protein, X73NBT0_91))
 
-#not sure why next line there writtenby emma-Brook doesn't know why here
 names(coral73)[names(coral73)=='X73NBT0_91']<-'NSAF'
 
 #Does T test on whole dataset to see if R>S
