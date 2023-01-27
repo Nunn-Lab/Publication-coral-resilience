@@ -109,7 +109,7 @@ ggplot(QSpecProt.dat) +
                   box.padding = 0.25,
                   aes(x = axes.LogFoldChange , y = axes.log.p.value ),
                   label=T1label_limit_S$GENE.ID, size=5) 
-#sometimes in code above we get error Aes must be length one or same as data--- look at the column name for gene.ID- it appears differently deending on mac vs pc
+#sometimes in code above we get error Aes must be length one or same as data--- look at the column name for gene.ID- it appears differently depending on mac vs pc
 ######Timepoint 2#######
 
 
