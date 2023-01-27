@@ -4,11 +4,10 @@ All code associated with publication Nunn et. al. 2023 (in review) - Resilience 
 
 biomarkers: This folder contains code and files necessary to recreate Figure 5
 
-lipids: This folder contains code and files necessary to recreate Figure 2E-F
-
-volcanos: This folder contains code and files necessary to recreate Figure 2A-B
-
 heatmap: This folder contains code and files necessary to recreate Figure 3
+
+lipids: This folder contains code and files necessary to recreate Figure 2E-F
 
 metaGO_volcano: This folder contains code and files necessary to recreate Figure 2C-D
 
+volcanos: This folder contains code and files necessary to recreate Figure 2A-B
