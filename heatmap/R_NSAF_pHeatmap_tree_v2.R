@@ -15,8 +15,8 @@ subset_abacusADJNSAF<-abacusoutput[,grepl('PROT|DEFLINE|ADJNSAF', names(abacusou
 View(subset_abacusADJNSAF)
 
 
-#across all columns replace "X2019_APRIL_16_CORALS_TANYABROWN_" with ""
-names(subset_abacusADJNSAF) <- gsub("X2019_APRIL_16_CORALS_TANYABROWN_", "", names(subset_abacusADJNSAF))
+#across all columns replace "X2019_APRIL_16_CORALS_" with ""
+names(subset_abacusADJNSAF) <- gsub("X2019_APRIL_16_CORALS_", "", names(subset_abacusADJNSAF))
 
 
 
