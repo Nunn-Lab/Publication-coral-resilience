@@ -11,3 +11,5 @@ lipids: This folder contains code and files necessary to recreate Figure 2E-F
 metaGO_volcano: This folder contains code and files necessary to recreate Figure 2C-D
 
 volcanos: This folder contains code and files necessary to recreate Figure 2A-B
+
+All processing steps for quality control of 16S rRNA gene amplicon sequence data are available on GitHub (https://github.com/tanyabrown9/Resilient_vs_Susceptible_Mcapitata). 
