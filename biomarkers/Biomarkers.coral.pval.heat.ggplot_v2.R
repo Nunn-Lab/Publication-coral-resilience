@@ -158,24 +158,4 @@ p.val.heat<-pheatmap(pval.01.heat.normdata,
               cutree_rows = 2,
               cutree_cols = 2)
 
-
-
-library(ggplot2)
-#Make small ggplot facet that show T1 and T2 avg and error bars.
-#subsetting NSAF data for mapping  dataset pval.01.heat.nsafdata has 
-
-#grab NSAF for R and S at each time point, for bleached and NB
-linePlotData.1 <- read.csv("linePlotData.1.csv", header=T)
-
-p<- ggplot(linePlotData.1, aes(x=Timepoint, y=R.avg, group=Gene, color=R.S)) + 
-  geom_line() + 
-  geom_point(size=3) + 
-  scale_fill_brewer(palette="Set1") +
-  geom_errorbar(aes(ymin=R.avg-R.std, ymax=R.avg+R.std), width=.01, position=position_dodge(1))
-
-#final labels and colors
-p+labs(title="Time Dependent NSAF", x="Timepoint", y = "NSAF")+ 
-  facet_grid(Gene ~ R.S, scales="free")+
-  theme_classic()
-  #facet_wrap(~ protein+ R.S,scales="free_y",ncol=2) #+theme_classic()
-          
+       
