@@ -14,4 +14,4 @@ viralproteome: This folder contains code and files necessary to perform viral t-
 
 volcanos: This folder contains code and files necessary to recreate Figure 2A-B
 
-All data and code related to quality control processing of 16S rRNA gene amplicon sequence data are available on GitHub (https://github.com/tanyabrown9/Resilient_vs_Susceptible_Mcapitata). 
+All data and code related to quality control processing of 16S rRNA gene amplicon sequence data are available here: (https://github.com/tanyabrown9/Resilient_vs_Susceptible_Mcapitata). 
