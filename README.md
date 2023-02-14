@@ -10,6 +10,8 @@ lipids: This folder contains code and files necessary to recreate Figure 2E-F
 
 metaGO_volcano: This folder contains code and files necessary to recreate Figure 2C-D
 
+symbiont_clade: This folder contains code and files necessary to recreate Supplemental Figure 1B
+
 viralproteome: This folder contains code and files necessary to perform viral t-test
 
 volcanos: This folder contains code and files necessary to recreate Figure 2A-B
